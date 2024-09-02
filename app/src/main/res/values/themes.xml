@@ -6,4 +6,15 @@
     </style>
 
     <style name="Theme.Android_Simple_Calculator" parent="Base.Theme.Android_Simple_Calculator" />
+
+    <style name="numberKeypad">
+        <item name="android:textSize">40sp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:backgroundTint">#0000FF</item>
+    </style>
+    <style name="operatorKeypad" parent="numberKeypad">
+        <item name="android:backgroundTint">#000055</item>
+    </style>
+
 </resources>
